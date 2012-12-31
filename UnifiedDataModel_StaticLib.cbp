@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="UnifiedDataModel_StaticLib" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="1">
+			<notes>
+				<![CDATA[SAF :: Unified Data Model :: Static Library Build
+
+Version 0.1 -- 12/31/2012
+]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="UnifiedDataModel" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="./include" />
+					<Add directory="../../libraries/boost_1_52_0" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="UnifiedDataModel" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add directory="./include" />
+					<Add directory="../../libraries/boost_1_52_0" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="include/Archivable.h" />
+		<Unit filename="include/Archive.h" />
+		<Unit filename="include/DatumField.h" />
+		<Unit filename="include/Error.h" />
+		<Unit filename="include/Test.h" />
+		<Unit filename="include/UUID.h" />
+		<Unit filename="include/UnifiedDataModel.h" />
+		<Unit filename="include/VolatileArchive.h" />
+		<Unit filename="src/Archivable.cpp" />
+		<Unit filename="src/Archive.cpp" />
+		<Unit filename="src/DatumField.cpp" />
+		<Unit filename="src/Error.cpp" />
+		<Unit filename="src/Test.cpp" />
+		<Unit filename="src/UUID.cpp" />
+		<Unit filename="src/VolatileArchive.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot class_diagrams="1" />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
