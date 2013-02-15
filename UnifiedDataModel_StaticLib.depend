@@ -1,1 +1,44 @@
 # depslib dependency file v1.0
+1360884028 source:c:\development\fudm\src\archivable.cpp
+	"Archivable.h"
+
+1360884028 c:\development\fudm\include\archivable.h
+	<vector>
+	"UUID.h"
+	"DatumField.h"
+
+1360884028 c:\development\fudm\include\uuid.h
+	<string>
+
+1360884028 c:\development\fudm\include\datumfield.h
+	<string>
+	<vector>
+	"Error.h"
+
+1360884028 c:\development\fudm\include\error.h
+	<string>
+
+1360884028 source:c:\development\fudm\src\archive.cpp
+	"Archive.h"
+
+1360884028 c:\development\fudm\include\archive.h
+	"Error.h"
+	"UUID.h"
+	"Archivable.h"
+
+1360884028 source:c:\development\fudm\src\datumfield.cpp
+	"DatumField.h"
+
+1360884028 source:c:\development\fudm\src\error.cpp
+	"Error.h"
+
+1360884028 source:c:\development\fudm\src\test.cpp
+	"Test.h"
+
+1360884028 c:\development\fudm\include\test.h
+	<iostream>
+	<string>
+
+1360884028 source:c:\development\fudm\src\uuid.cpp
+	"UUID.h"
+
